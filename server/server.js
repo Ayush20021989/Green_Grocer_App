@@ -35,7 +35,7 @@ db.once("open", () => {
 
 // Import City model
 const City = require("./models/cityschema");
-const User = require("./models/userSchema");
+const User = require("./models/userschema");
 
 // Routes
 app.get("/api/cities", async (req, res) => {
