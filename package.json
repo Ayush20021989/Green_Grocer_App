@@ -34,7 +34,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "start-backend": "node server.js && node loginserver.js",
-  "start-streamlit": "streamlit run pre.py"
+        "start-streamlit": "streamlit run pre.py"
     },
     "eslintConfig": {
         "extends": [
